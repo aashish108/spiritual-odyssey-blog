@@ -1,0 +1,27 @@
+name: Jekyll site CI
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 2.6
+    - name: Setup environment
+      run: |
+        sudo apt-get install ruby-full build-essential zlib1g-dev
+        echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+        echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+        echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+        source ~/.bashrc
+        gem install jekyll bundler
+    - name: build
+      run: |
+        jekyll build

@@ -11,9 +11,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - uses: ruby/setup-ruby@v1
+    - uses: actions/setup-ruby@v1
       with:
-        ruby-version: 2.6
+        ruby-version: 2.7
     - name: Setup environment
       run: |
         sudo apt-get install ruby-full build-essential zlib1g-dev

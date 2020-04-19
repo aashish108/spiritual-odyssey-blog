@@ -20,11 +20,11 @@
 
 # Author settings
 author-pic: face.jpg # your photo
-author-name: # your name
+author-name: Aashish Sharma
 about-author: # about author
 email: your-email@domain.com # your email
 phone: (496)-169-6557 # your pnone number
-website: https://dwayne.example.com # you website
+website: https://spiritualodyssey.aashishsharma.space # you website
 
 # Build settings
 markdown: kramdown
@@ -34,8 +34,8 @@ plugins_dir:
 
 # Banner settings
 video: mountains.mp4 # add banner video. Add your video file to the folder video
-banner-title: # add banner title
-banner-desc: # add banner descriptio
+banner-title: Spiritual Odyssey
+banner-desc: My journey through the Vedic Texts of Ancient India
 
 # Disqus
 discus_identifier: mr-brown # add your discus identifier.  Not your username.  To get this, register your forum here with a unique ID: https://disqus.com/admin/create/

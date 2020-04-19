@@ -1,0 +1,146 @@
+#banner {
+  position: relative;
+
+  .content {
+    padding: 12rem 0 12rem 0;
+
+    .title, .sub_title {
+      text-align: center;
+      color: #ffffff;
+    }
+
+    .title {
+      font-size: 3.5rem;
+      margin: 0 0 1rem 0;
+    }
+
+    .sub_title {
+      font-weight: 400;
+      font-size: 1.35rem;
+      margin: 0 auto 2rem auto;
+      line-height: 2.5rem;
+      font-style: italic;
+    }
+  }
+}
+
+#banner, .main_header, .page-content, .post_content, .about, .contact {
+  -webkit-animation-duration: 0.7s;
+  animation-duration: 0.7s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+#banner, .main_header {
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+
+@media only screen and (max-width: 768px) {
+  #banner .content {
+    padding: 7rem 0;
+
+    .title {
+      font-size: 2.5rem;
+      margin: 0 0 1rem 0;
+    }
+
+    .sub_title {
+      font-size: 1.35rem;
+      line-height: 2rem;
+      font-style: italic;
+    }
+  }
+
+  .chapters .chapter_inner {
+    .chapter_number {
+      font-size: 0.7rem;
+      margin: 0 0 0.5rem 0;
+    }
+
+    .chapter_title {
+      font-size: 1.35rem;
+      margin: 0 0 0.3rem 0;
+    }
+  }
+
+  .pagination {
+    padding: 2rem 0 6rem;
+
+    a {
+      padding: 0.5rem 0.8rem;
+      margin-left: 1rem;
+    }
+  }
+
+  .newsletter {
+    padding: 2rem 0;
+
+    .newsletter_title {
+      font-size: 1.75rem;
+      margin: 0 0 0.8rem;
+    }
+
+    form {
+      width: 550px;
+
+      label {
+        font-size: 1.1rem;
+      }
+
+      .newsletter_box {
+        padding: 2rem 0;
+      }
+
+      .email_input {
+        width: 100%;
+        padding: 1rem 2.5rem;
+        -webkit-border-radius: 2.5rem;
+        border-radius: 2.5rem;
+        font-size: 0.9rem;
+      }
+
+      .subscribe_btn {
+        width: 110px;
+        padding: 1.1rem;
+        font-size: 0.7rem;
+        top: 32px;
+      }
+    }
+  }
+
+  .social_footer {
+    padding: 2rem 0;
+
+    a {
+      padding: 0.5rem 1rem;
+      font-size: 1.35rem;
+      -webkit-border-radius: 0.3rem;
+      border-radius: 0.3rem;
+    }
+  }
+
+  .copyright {
+    padding: 1rem 0;
+
+    p {
+      font-size: 0.7rem;
+    }
+  }
+
+  .post header {
+    .post_meta {
+      font-size: 0.8rem;
+    }
+
+    .post_title {
+      font-size: 1.6rem;
+    }
+  }
+
+  .author .author_social span {
+    font-size: 0.7rem;
+  }
+}

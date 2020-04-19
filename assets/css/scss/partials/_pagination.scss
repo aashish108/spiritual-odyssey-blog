@@ -1,0 +1,26 @@
+.pagination {
+  padding: 2rem 0 6rem;
+  text-align: center;
+
+  a, span {
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    color: #6e6e6e;
+  }
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      color: #ffffff;
+    }
+  }
+
+  .active {
+    border-bottom: 1px solid #6e6e6e;
+
+    &:hover {
+      color: #6e6e6e;
+    }
+  }
+}

@@ -8,7 +8,7 @@ const uglifycss = require('gulp-uglifycss');
 const { series, parallel } = require('gulp');
 
 gulp.task('sass', function () {
-  return gulp.src('./assets/css/scss/main.scss')
+  return gulp.src('./assets/css/scss/index.scss')
     .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError))
     .pipe(sourcemaps.write('./'))
@@ -18,4 +18,4 @@ gulp.task('sass', function () {
     .pipe(gulp.dest('./assets/css'));
 });
 
-gulp.task('default', gulp.series('sass:watch'));
+gulp.task('default', gulp.series('sass'));

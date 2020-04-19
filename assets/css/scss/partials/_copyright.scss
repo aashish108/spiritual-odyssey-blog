@@ -1,0 +1,22 @@
+.copyright {
+  padding: 1rem 0;
+  text-align: center;
+
+  p {
+    color: #ffffff;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: #c0334a;
+    -webkit-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+
+    &:hover {
+      color: rgba(192, 51, 74, 0.75);
+    }
+  }
+}

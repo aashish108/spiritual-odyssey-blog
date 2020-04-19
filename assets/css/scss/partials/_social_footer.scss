@@ -1,0 +1,31 @@
+.social_footer {
+  padding: 3rem 0;
+  list-style: none;
+  margin: 0;
+  text-align: center;
+  border-bottom: 1px solid #333333;
+
+  li {
+    display: inline-block;
+    margin-left: 0.5rem;
+  }
+
+  a {
+    color: #7b7b7b;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0.3rem 0;
+    text-decoration: none;
+    font-size: 1.75rem;
+    -webkit-border-radius: 0.3rem;
+    border-radius: 0.3rem;
+    background-color: #262626;
+    -webkit-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+
+    &:hover {
+      background-color: #c0334a;
+      color: #ffffff;
+    }
+  }
+}

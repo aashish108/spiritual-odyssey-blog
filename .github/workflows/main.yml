@@ -9,11 +9,19 @@ jobs:
 
     runs-on: ubuntu-latest
 
+    strategy:
+      matrix:
+        node-version: [10.x]
+
     steps:
     - uses: actions/checkout@v2
     - uses: actions/setup-ruby@v1
       with:
         ruby-version: 2.7
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
     - name: Setup environment
       run: |
         sudo apt-get install ruby-full build-essential zlib1g-dev
@@ -23,6 +31,8 @@ jobs:
         source ~/.bashrc
         gem install jekyll bundler
         bundle install
+        npm install --global gulp-cli
+        npm install
     - name: build
       run: |
         jekyll build

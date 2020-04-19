@@ -1,7 +1,9 @@
-@import 'tools/normalize'
-@import 'tools/animate'
-@import 'syntax'
-@import 'variables'
+@use "sass:color"
+@use "sass:meta"
+@use 'tools/normalize'
+@use 'tools/animate'
+@use 'syntax'
+@use 'variables'
 
 // - - - - - - - - - - Main Styles - - - - - - - - - - //
 
@@ -11,32 +13,32 @@
 body
   font-family: "Lato", sans-serif
   -webkit-font-smoothing: antialiased
-  background-color: $dark_gray
+  background-color: variables.$dark_gray
   margin: 0
 
 p
   font-size: 1.1rem
   line-height: 1.75rem
   margin: 0 0 1.75rem
-  color: $text_color
+  color: variables.$text_color
   font-weight: 400
 
 blockquote
   font-size: 1.2rem
   font-style: italic
-  border-left: 3px solid $border_red
+  border-left: 3px solid variables.$border_red
   padding-left: 2rem
   margin: 0 0 1.75rem
-  color: $dark_light
+  color: variables.$dark_light
   p
-    color: $dark_light
+    color: variables.$dark_light
     font-size: 1.2rem
 
 ::-webkit-input-placeholder
-  color: $white
+  color: variables.$white
 
 ::-moz-placeholder
-  color: $white
+  color: variables.$white
 
 input[type=email], input[type=text], input[type=tel], textarea
   border: none
@@ -45,7 +47,7 @@ input[type=email], input[type=text], input[type=tel], textarea
 
 
 cite
-  color: lighten($color_gray, 15%)
+  color: color.adjust(variables.$color_gray, $lightness: 15%)
 
 .wrapper
   width: 1440px
@@ -53,7 +55,7 @@ cite
   margin: 0 auto
 
 .button_back
-  color: $white
+  color: variables.$white
   font-size: 1.1rem
   text-decoration: none
   font-style: italic
@@ -72,43 +74,43 @@ cite
   clear: both
 
 // - - - - - - - - - - Header Styles - - - - - - - - - - //
-@import 'parts/header'
+@include meta.load-css('parts/header')
 
 // - - - - - - - - - - Banner Styles - - - - - - - - - - //
-@import 'parts/banner'
+@include meta.load-css('parts/banner')
 
 // - - - - - - - - - - Cards Styles - - - - - - - - - - //
-@import 'parts/cards'
+@include meta.load-css('parts/cards')
 
 // - - - - - - - - - - Newsletter Styles - - - - - - - - - - //
-@import 'parts/newsletter'
+@include meta.load-css('parts/newsletter')
 
 // - - - - - - - - - - Pagination Styles - - - - - - - - - - //
-@import 'parts/pagination'
+@include meta.load-css('parts/pagination')
 
 // - - - - - - - - - - Arrow Top Styles - - - - - - - - - - //
-@import 'parts/arrow_top'
+@include meta.load-css('parts/arrow_top')
 
 // - - - - - - - - - - Comment Area Styles - - - - - - - - - - //
-@import 'parts/comment_area'
+@include meta.load-css('parts/comment_area')
 
 // - - - - - - - - - - Footer Styles - - - - - - - - - - //
-@import 'parts/footer'
+@include meta.load-css('parts/footer')
 
 // - - - - - - - - - - Post Styles - - - - - - - - - - //
-@import 'post'
+@include meta.load-css('post')
 
 // - - - - - - - - - - Tags Styles - - - - - - - - - - //
-@import 'tags'
+@include meta.load-css('tags')
 
 // - - - - - - - - - - About Styles - - - - - - - - - - //
-@import 'about'
+@include meta.load-css('about')
 
 // - - - - - - - - - - Contact Styles - - - - - - - - - - //
-@import 'contact'
+@include meta.load-css('contact')
 
 // - - - - - - - - - - Smooth Animate Styles - - - - - - - - - - //
-@import 'smooth'
+@include meta.load-css('smooth')
 
 // - - - - - - - - - - Media Styles - - - - - - - - - - //
-@import 'media'
+@include meta.load-css('media')

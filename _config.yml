@@ -34,7 +34,7 @@ plugins_dir:
 
 # Banner settings
 video: mountains.mp4 # add banner video. Add your video file to the folder video
-banner-title: Spiritual Odyssey
+banner-title: A Spiritual Odyssey
 banner-desc: My journey through the Vedic Texts of Ancient India
 
 # Disqus
@@ -47,8 +47,8 @@ paginate_path: /page:num/
 # Tracker
 analytics:
 
-logo: Spiritual Odyssey
-title: Spiritual Odyssey
+logo: A Spiritual Odyssey
+title: A Spiritual Odyssey
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   My journey through the Vedic Texts of Ancient India

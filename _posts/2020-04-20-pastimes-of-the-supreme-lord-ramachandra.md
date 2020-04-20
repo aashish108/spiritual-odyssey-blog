@@ -7,6 +7,9 @@ description: You’ll find this post in your `_posts` directory. Go ahead and ed
 comments: true
 tag: [Srimad Bhagavatam, Lord Rama]
 ---
+## Intro
+I decided to read through Lord Rama's pastimes from the Srimad Bhagavatam. These are the passages that stood out and I wanted to highlight them.
+
 ## Chapter 10: The Pastimes of the Supreme Lord, Ramachandra
 > When Rāmacandra entered the forest and Lakṣmaṇa was also absent, the worst of the Rākṣasas, Rāvaṇa, kidnapped Sītādevī, the daughter of the King of Videha, just as a tiger seizes unprotected sheep when the shepherd is absent. Then Lord Rāmacandra wandered in the forest with His brother Lakṣmaṇa as if very much distressed due to separation from His wife. Thus He showed by His personal example the condition of a person attached to women.
 

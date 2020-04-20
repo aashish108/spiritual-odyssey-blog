@@ -20,11 +20,11 @@
 
 # Author settings
 author-pic: face.jpg # your photo
-author-name: Aashish Sharma
-about-author: # about author
-email: your-email@domain.com # your email
-phone: (496)-169-6557 # your pnone number
-website: https://spiritualodyssey.aashishsharma.space # you website
+author-name: Aashish Sharma 
+about-author: On a spiritual journey through the vedic texts of India. I am also a Software Engineer working for a leading luxury fashion company; I spend my time playing around with new technologies.
+# email: your-email@domain.com # your email
+# phone: (496)-169-6557 # your pnone number
+# website: https://spiritualodyssey.aashishsharma.space # you website
 
 # Build settings
 markdown: kramdown
@@ -38,7 +38,7 @@ banner-title: Spiritual Odyssey
 banner-desc: My journey through the Vedic Texts of Ancient India
 
 # Disqus
-discus_identifier: mr-brown # add your discus identifier.  Not your username.  To get this, register your forum here with a unique ID: https://disqus.com/admin/create/
+discus_identifier: spiritual-odyssey # add your discus identifier.  Not your username.  To get this, register your forum here with a unique ID: https://disqus.com/admin/create/
 
 # Paginate
 paginate: 12
@@ -47,26 +47,22 @@ paginate_path: /page:num/
 # Tracker
 analytics:
 
-logo: # add logo name
-title: Your awesome title
-email: your-email@example.com
+logo: Spiritual Odyssey
+title: Spiritual Odyssey
+# email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  My journey through the Vedic Texts of Ancient India
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog-
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: bintu108
+github_username:  aashish108
 
 # Social link
-google_url:    # add url link
-twitter_url:   # add url link
-instagram_url: # add url link
-pinterest_url: # add url link
-dribbble_url:  # add url link
-facebook_url:  # add url link
+twitter_url: https://twitter.com/bintu108
+instagram_url: https://www.instagram.com/bintu108/
+github_url: https://github.com/aashish108
+facebook_url: https://www.facebook.com/aashish108
 
 gems:
   - jekyll-paginate

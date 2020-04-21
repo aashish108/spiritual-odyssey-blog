@@ -8,7 +8,7 @@ comments: true
 tag: [Srimad Bhagavatam, Krishna, Arjuna]
 ---
 ## Intro
-A really wonderful and eye-opening pastime is when Krishna takes Arjuna to beyond the universe to the Abode of Lord Maha-Vishu. So,, naturally I did a lot of highlighting here.
+A really wonderful and eye-opening pastime is when Krishna takes Arjuna to beyond the universe to the Abode of Lord Maha-Vishu. So naturally I did a lot of highlighting here.
 
 ## Krishna Takes Arjuna to the Abode of Lord Maha-Vishnu
 > [Lord Kṛṣṇa said:] I will show you the brāhmaṇa’s sons, so please don’t despise yourself like this. These same men who now criticize us will soon establish our spotless fame.

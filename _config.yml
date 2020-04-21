@@ -54,7 +54,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   My journey through the Vedic Texts of Ancient India
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog-
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://spiritualodyssey.aashishsharma.space" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: bintu108
 github_username:  aashish108
 

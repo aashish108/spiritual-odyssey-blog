@@ -3,7 +3,7 @@ layout: post
 title: "Descriptions of Vrindavana"
 img: krishna1.jpg
 date: 2020-04-19 20:00:00 +0000
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+description: Some beautiful, mesmerising descriptions of Lord Krishna abode, Vrindavana from Srimad Bhagavatam
 comments: true
 tag: [Srimad Bhagavatam, Vrindavana, Krishna]
 ---

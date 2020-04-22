@@ -3,7 +3,7 @@ layout: post
 title: "Krishna Takes Arjuna to the Abode of Lord Maha-Vishnu"
 img: krishna-arjuna-chariot1.jpg
 date: 2020-04-20 20:00:00 +0000
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+description: Krishna takes Arjuna beyond the universe to the abode of Lord Maha-Vishnu
 comments: true
 tag: [Srimad Bhagavatam, Krishna, Arjuna]
 ---

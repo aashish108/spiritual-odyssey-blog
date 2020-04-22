@@ -51,5 +51,5 @@ jobs:
         jekyll build
     - name: Copy files to PRD (virtual host directory)
       run: |
-         gulp copyToPrd
+         sudo gulp copyToPrd
 

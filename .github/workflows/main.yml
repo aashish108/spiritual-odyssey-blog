@@ -28,6 +28,7 @@ jobs:
         exec bash
         bash -lc "rvm use 2.7.0 --default"
         rvm install ruby-2.7.0
+        sudo chmod -R a+w /var/lib/gems
     # - name: Set ruby default
     #   run: |
     # - name: Install Ruby via RVM

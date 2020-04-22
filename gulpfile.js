@@ -29,7 +29,8 @@ gulp.task('clean:prd', function () {
     'delete-report.csv',
     // here we use a globbing pattern to match everything inside the `spiritualodyssey` folder
     '../../../../../../../../mnt/share/Cloud/personal-blogs/spiritualodyssey/**/*',
-  ]);
+  ], 
+  {force: true});
 });
 
 // The below is for use on my local Pi device that mounts my Synology Cloud share folder

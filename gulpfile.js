@@ -25,8 +25,9 @@ gulp.task('sass:watch', function() {
 // The below is for use on my local Pi device that mounts my Synology Cloud share folder
 gulp.task('copyToVirtualHostDIR', function() {
   return gulp.src('_site/**/*', {base:'_site/'})
-    .pipe(gulp.dest('../../../Mounts/Cloud/')); 
+    .pipe(gulp.dest('../../../../../../../../mnt/share/Cloud/personal-blogs/spiritualodyssey')); 
 });
 
 gulp.task('sass', gulp.series('sass'));
 gulp.task('sass-watch', gulp.series('sass', 'sass:watch'));
+gulp.task('copyToPrd', gulp.series('copyToVirtualHostDIR'));

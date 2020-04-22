@@ -49,3 +49,7 @@ jobs:
       run: |
         gulp sass
         jekyll build
+    - name: Copy files to PRD (virtual host directory)
+      run: |
+         gulp copyToPrd
+

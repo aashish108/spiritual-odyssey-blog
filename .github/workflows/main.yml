@@ -26,7 +26,7 @@ jobs:
         \curl -sSL https://get.rvm.io | bash -s stable
         source /home/pi/.rvm/scripts/rvm
         source $HOME/.rvm/scripts/rvm
-        echo 'source $HOME/.rvm/scripts/rvm' >> ~/.bashrc
+        exec bash
     - name: Install Ruby via RVM
       run: |
         rvm install ruby-2.7.0

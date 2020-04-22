@@ -28,10 +28,6 @@ jobs:
         exec bash
         bash -lc "rvm use 2.7.0 --default"
         rvm install ruby-2.7.0
-    # - name: Set ruby default
-    #   run: |
-    # - name: Install Ruby via RVM
-    #   run: |
     - name: Setup .bashrc
       run: |
         echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc

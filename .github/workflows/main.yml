@@ -21,7 +21,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: Setup environment
       run: |
-        sudo apt-get install ruby-full build-essential zlib1g-dev
+        sudo apt-get --yes --force-yes install ruby-full build-essential zlib1g-dev
         echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
         echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
         echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc

@@ -27,6 +27,8 @@ jobs:
         source /home/pi/.rvm/scripts/rvm
         source $HOME/.rvm/scripts/rvm
         exec bash
+    - name: Set ruby default
+        shell: 'bash -lc "rvm use 2.7.0 --default"'
     - name: Install Ruby via RVM
       run: |
         rvm install ruby-2.7.0

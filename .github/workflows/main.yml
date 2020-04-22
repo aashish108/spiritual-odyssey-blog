@@ -21,7 +21,8 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: Setup environment
       run: |
-        sudo apt install --yes --force-yes --no-install-recommends ruby-full
+        \curl -sSL https://get.rvm.io | bash -s stable
+        rvm install 2.7
         echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
         echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
         echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc

@@ -19,21 +19,32 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - name: Setup environment
+        
+    - name: Setup RVM
       run: |
         gpg --keyserver hkp://pool.sks-keyservers.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
         \curl -sSL https://get.rvm.io | bash -s stable
         source /home/pi/.rvm/scripts/rvm
+    - name: Install Ruby via RVM
+      run: |
         rvm install ruby-2.7.0
+    - name: Setup .bashrc
+      run: |
         echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
         echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
         echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
         source ~/.bashrc
-        gem install jekyll bundler
+    - name: Install jekyll bundler
+      run: |
+        gem Install jekyll bundler
         bundle install
-        npm install --global gulp-cli
+    - name: install Gulp
+      run: |
+        npm Install --global gulp-cli
+    - name: npm install
+      run: |
         npm install
-    - name: build
+    - name: Build src files
       run: |
         gulp sass
         jekyll build

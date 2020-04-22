@@ -42,6 +42,7 @@
       font-size: 0.9rem;
       text-transform: uppercase;
       margin: 0 0 1rem 0;
+      text-shadow: 2px 2px #000;
 
       &::after {
         content: "";
@@ -56,6 +57,7 @@
       font-size: 1.75rem;
       font-weight: 400;
       margin: 0 0 0.5rem 0;
+      text-shadow: 2px 2px #000;
     }
   }
 }

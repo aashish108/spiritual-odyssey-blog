@@ -41,7 +41,7 @@ jobs:
     - name: Install jekyll bundler
       run: |
         sudo chmod -R a+w /var/lib/gems/
-        gem Install jekyll bundler
+        sudo gem Install -n /usr/local/bin jekyll bundler
         bundle install
     - name: install Gulp
       run: |

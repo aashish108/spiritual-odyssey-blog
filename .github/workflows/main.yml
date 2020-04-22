@@ -41,7 +41,7 @@ jobs:
         bundle install
     - name: install Gulp
       run: |
-        npm Install --global gulp-cli
+        npm install --global gulp-cli
     - name: npm install
       run: |
         npm install

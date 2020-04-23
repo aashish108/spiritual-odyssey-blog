@@ -1,6 +1,12 @@
-# Bef is a responsive jekyll theme
+# Responsive Jekyll Theme
 
-My spiritual blog - I decided to utilise the Jekyll Web Framework to create my blog.
+I decided to utilise the Jekyll Web Framework to create my blog. Its just based on my readings from vedic spiritual literatures. I wanted to play around with a few technologies also:
+* Jekyll
+* Ruby
+* GitHub Actions for CI/CD
+* Self-hosted runner
+
+So, its all fully automated using a great web framework.
 
 its based on BEF Theme by [Artem Shekudko](https://artemsheludko.github.io/bef/)
 

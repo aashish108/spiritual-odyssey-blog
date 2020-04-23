@@ -36,9 +36,13 @@ gulp.task('clean:prd', function () {
 // The below is for use on my local Pi device that mounts my Synology Cloud share folder
 gulp.task('copyToVirtualHostDIR', function() {
   return gulp.src('_site/**/*', {base:'_site/'})
-    .pipe(gulp.dest('../../../../../../../../mnt/share/Cloud/personal-blogs/spiritualodyssey')); 
+    .pipe(gulp.dest('../../../../../../../../mnt/share/Cloud/personal-blogs/spiritualodyssey', 
+    {
+      overwrite: true,
+      sourcemaps: true,
+    })); 
 });
 
 gulp.task('sass', gulp.series('sass'));
 gulp.task('sass-watch', gulp.series('sass', 'sass:watch'));
-gulp.task('copyToPrd', gulp.series('clean:prd', 'copyToVirtualHostDIR'));
+gulp.task('copyToPrd', gulp.series('copyToVirtualHostDIR'));

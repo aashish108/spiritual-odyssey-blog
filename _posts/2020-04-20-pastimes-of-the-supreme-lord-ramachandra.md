@@ -5,7 +5,7 @@ img: rama1.jpg
 date: 2020-04-19 19:00:00 +0000
 description: Some highlights from my readings of the Pastimes of the Supreme Lord Ramachandra from Srimad Bhagavatam
 comments: true
-tag: [Srimad Bhagavatam, Lord Rama]
+tag: [Srimad Bhagavatam, Avataras]
 ---
 ## Intro
 I decided to read through Lord Rama's pastimes from the Srimad Bhagavatam. These are the passages that stood out and I wanted to highlight them.
